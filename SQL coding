@@ -59,21 +59,15 @@ INSERT INTO songs (artist, title)
     
 
 SELECT title FROM songs WHERE artist = "Queen"; 
-
-SELECT name FROM artists WHERE genre = "Pop"; 
-
-select title from songs where title IN ("Shake it off",
-"Stay","My heart will go on","A new day has come",
-"Conga")
-;
-
-RESULTS OF QUERIES
+RESULT OF QUERY
 +-------------------+
 |       title       |
 +-------------------+
 | Bicycle Race      |
 | Bohemian Rhapsody |
 +-------------------+
+SELECT name FROM artists WHERE genre = "Pop"; 
+RESULT OF QUERY
 +----------------+
 |      name      |
 +----------------+
@@ -82,6 +76,12 @@ RESULTS OF QUERIES
 | Rihanna        |
 | Gloria Estefan |
 +----------------+
+select title from songs where title IN ("Shake it off",
+"Stay","My heart will go on","A new day has come",
+"Conga")
+;
+
+RESULT OF QUERY
 +---------------------+
 |        title        |
 +---------------------+
